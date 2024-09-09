@@ -27,12 +27,15 @@ if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
 
 // Завдання номер 3.
 
-let age = 234
+let age = 245
 
 if (age % 10 === 1 && age % 100 !== 11){
     console.log("Вам " + age + " рік")
+} else if (age >= 10 && age <= 20){
+    console.log("Вам " + age + " років")
 } else if ((age % 10 === 2 || age % 10 === 3 || age % 10 === 4) && (age % 100 !== 12 || age % 100 !== 13 || age % 100 !==14)){
 console.log("Вам " + age + " роки")
-} else {
+} 
+else {
     console.log("Вам " + age + " років")
 }
